@@ -1,3 +1,7 @@
+@charset 'UTF-8';
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
 html
 {
     font-size: 62.5%;
@@ -8,7 +12,9 @@ body
     font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     font-size: 1.4rem;
     line-height: 1.6;
+
     letter-spacing: .1em;
+
     color: #4c4c4c;
     background-color: #fdfcf6;
 }
@@ -36,11 +42,15 @@ a:hover
     text-decoration: underline;
 }
 
+/* Align
+------------------------------------------------------------*/
 .text-center
 {
     text-align: center;
 }
 
+/* Layout
+------------------------------------------------------------*/
 .block-center,
 section .container,
 #skills i
@@ -51,6 +61,8 @@ section .container,
     margin-left: auto;
 }
 
+/* Font
+------------------------------------------------------------*/
 .abel,
 section h2,
 #skills h3,
@@ -66,17 +78,24 @@ section h2,
 {
     text-transform: uppercase;
 }
+
+/* Header
+------------------------------------------------------------*/
 .button-contact
 {
     font-size: 20px;
     line-height: 0;
+
     display: block;
     float: right;
+
     width: 20px;
     height: 20px;
     margin: 20px 20px 0 0;
     padding: 10px;
+
     text-align: center;
+
     color: #4c4c4c;
     border: 2px solid #4c4c4c;
     -webkit-border-radius: 4px;
@@ -97,6 +116,7 @@ section h2,
 header .profile
 {
     clear: both;
+
     width: 60%;
     margin: 0 auto;
     padding: 60px 0;
@@ -109,6 +129,7 @@ header .site-title
 header .site-title span
 {
     font-size: 4.2rem;
+
     display: block;
 
     color: #14c0c9;
@@ -116,6 +137,7 @@ header .site-title span
 header .profile-icon
 {
     margin: 30px auto;
+
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
@@ -124,6 +146,9 @@ header p
 {
     font-size: 1.6rem;
 }
+
+/* Contents
+------------------------------------------------------------*/
 section
 {
     padding: 60px 0;
@@ -136,6 +161,7 @@ section h2
 {
     font-size: 3.2rem;
 }
+
 #skills
 {
     background-color: #bea300;
@@ -144,11 +170,13 @@ section h2
 {
     display: -webkit-flex;
     display:         flex;
+
     justify-content: space-between;
 }
 #skills h2
 {
     margin-bottom: 60px;
+
     color: #fdfcf6;
 }
 #skills .skill-box
@@ -160,6 +188,7 @@ section h2
             flex: 1;
     margin: 0px 10px;
     padding: 20px;
+
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
             border-radius: 4px;
@@ -168,6 +197,7 @@ section h2
 #skills i
 {
     font-size: 4.5rem;
+
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -175,7 +205,9 @@ section h2
     height: 80px;
     margin-bottom: 5px;
     padding-top: 15px;
+
     text-align: center;
+
     color: #fff;
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
@@ -186,9 +218,12 @@ section h2
 {
     font-size: 2.4rem;
     font-weight: bold;
+
     margin-bottom: 10px;
+
     color: #14c0c9;
 }
+
 #works
 {
     padding-bottom: 0;
@@ -200,13 +235,14 @@ section h2
 #works .works-box
 {
     float: left;
+
     width: 33.33333%;
     height: 100%;
 }
-
 #works .works-box a
 {
     position: relative;
+
     display: block;
 }
 #works .works-box a .works-box-inner
@@ -214,8 +250,11 @@ section h2
     position: absolute;
     top: 0;
     left: 0;
+
     display: none;
+
     height: 100%;
+
     color: #fff;
     background-color: rgba(0, 0, 0, .7);
 }
@@ -226,6 +265,7 @@ section h2
     right: 0;
     bottom: 0;
     left: 0;
+
     height: 40%;
     margin: auto;
     padding: 10px 20px;
@@ -234,23 +274,30 @@ section h2
 {
     font-size: 1.6rem;
     font-weight: bold;
+
     margin: 0 0 5px;
 }
 #works .works-box a .works-box-inner small
 {
     font-size: 1rem;
+
     display: block;
+
     margin-bottom: 15px;
 }
 #works .works-box a .works-box-inner .button-readmore
 {
     font-size: 1rem;
     font-weight: bold;
+
     display: block;
+
     width: 180px;
     margin: auto;
     padding: 5px 0;
+
     text-align: center;
+
     color: #fff;
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
@@ -264,33 +311,40 @@ section h2
 #works .works-box a:hover .works-box-inner
 {
     display: block;
+
     width: 100%;
 }
 #works .works-box img
 {
     display: block;
+
     max-width: 100%;
 }
-
 #works::after
 {
     display: block;
     clear: both;
+
     content: '';
 }
+
 #contact ul
 {
     margin-top: 60px;
+
     text-align: center;
 }
 #contact ul li
 {
     font-size: 2.8rem;
+
     display: inline-block;
+
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     margin-right: 20px;
+
     text-align: center;
     vertical-align: top;
 }
@@ -310,8 +364,10 @@ section h2
 #contact ul a
 {
     display: block;
+
     width: 50px;
     height: 50px;
+
     color: #fff;
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
@@ -322,10 +378,15 @@ section h2
 {
     background-color: #0f949b;
 }
+
+/* Footer
+------------------------------------------------------------*/
 footer
 {
     padding: 10px 0;
+
     text-align: center;
+
     color: #fff;
     background-color: #bea300;
 }
